@@ -9,12 +9,44 @@ h3 {
 .familiaTexto {
     font-family: "papyrus";
     font-size: 1em;
-    color: #33DDFF;
+    color: rgb(255, 51, 228);
 text-align: justify;
 
 }
-body {background-color: black;}
+.bodyprincipal {background-color: red;
+}
 
 h1 { color: blanchedalmond;}
 
-footer {background-color: blue;}
+footer {background-color: blue;
+text-align: center;
+font-size: 26px;}
+
+main {
+    font-size: 26px;
+}
+
+a {
+    font-size: 25px;
+}
+.fondoPrincipal {
+    background-color: red;
+}
+
+.headerprincipal {
+    background-color: green;
+}
+.headersecundario {
+    background-color: blue;
+}
+
+.imagenfondo {
+    background-image: url(img/medellin.jpg);
+    height: 640px;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.textorojo {
+    color: red;
+}
